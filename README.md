@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Health Comm. Doctor/Admin Application
 
-## Available Scripts
+Used by a doctor, physician, or receptionist of a pretend healthcare organization to approve, edit, or delete appointments scheduled by patients on the client complement application. 
+Doctors are able to schedule times off for any particular day for unavailability. 
+Patient information regarding which list of doctor families they are approved can be updated, along with who is their Primary Care Physician.
+This list of approved doctor families is used to determine the actual list of doctors the patient can request appointments with. 
+New patients and staff can also be created.   
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Frontend
+- React
+- Material UI
+- JavaScript
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Backend
+- Node.js
+- Express
+- Axios
+- MongoDB
+## Login Access
+Email: demodoc@gmail.com
 
-### `npm test`
+Password: password
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://harmonious-dodol-71e146.netlify.app/
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login
+![Login](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(178).png?raw=true)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Appointments Page
+![AppntsPg](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(158).png?raw=true)
 
-### `npm run eject`
+### Edit Appointment
+![EditAppntModal](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(169).png?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Edit Appointment Time
+![EditAppntTime](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(171).png?raw=true)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Delete Appointment
+![DeleteAppnt](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(161).png?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Schedule Page
+![SchedulePg](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot(001).png?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Updating Doctor Schedule
+![UpdateSchedule](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(164).png?raw=true)
 
-## Learn More
+### Add New Patient
+![NewPatient](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(165).png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Update Patient's Approved Doctors 
+![UpdatePatient](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(175).png?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Add New Doctor
+![NewStaff](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(167).png?raw=true)
 
-### Code Splitting
+### Form Validation
+![ValidForm](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(177).png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Logout
+![Logout](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(172).png?raw=true)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+- [@treecake10](https://github.com/treecake10)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
