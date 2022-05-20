@@ -1,0 +1,18 @@
+[
+
+    {
+        "label":  "Accepted",
+        "value":  "Accepted"
+    },
+
+    {
+        "label":  "Declined",
+        "value":  "Declined"
+    },
+
+    {
+        "label":  "Pending",
+        "value":  "Pending"
+    }
+    
+]

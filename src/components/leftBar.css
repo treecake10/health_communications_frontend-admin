@@ -1,0 +1,54 @@
+.leftbar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: rgb(251, 251, 255);
+    position: sticky;
+    top: 50px;
+  
+  }
+
+  .other {
+    flex: 5;
+    background-color: darkcyan;
+    text-align: left;
+  }
+
+  .leftbarWrapper {
+    padding: 20px;
+    color: #555;
+  }
+
+  .leftbarList {
+    list-style: none;
+    padding: 5px;
+    margin-left: 20px;
+  }
+
+  .leftbarListItem {
+    
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .leftbarTitle {
+    font-size: 17px;
+    text-align: left;
+    color: rgb(187, 186, 186);
+  }
+
+  .leftbarListItem.active,
+  .leftbarListItem:hover {
+    background-color: rgb(228, 228, 250);
+  }
+
+  .leftbarIcon {
+    margin-right: 5px;
+    font-size: 20px !important;
+  }
+
+  
+
+  

@@ -1,0 +1,78 @@
+[
+    {
+        "label":  "Allergist",
+        "value":  "Allergist"
+    },
+    {
+        "label":  "Anesthesiologist",
+        "value":  "Anesthesiologist"
+    },
+    {
+        "label":  "Dermatologist",
+        "value":  "Dermatologist"
+    },
+    {
+        "label":  "Emergency Medicine",
+        "value":  "Emergency Medicine"
+    },
+    {
+        "label":  "Family Medicine",
+        "value":  "Family Medicine"
+    },
+    {
+        "label":  "Internal Medicine",
+        "value":  "Internal Medicine"
+    },
+    {
+        "label":  "Medical Geneticist",
+        "value":  "Medical Geneticist"
+    },
+    {
+        "label":  "Neurologist",
+        "value":  "Neurologist"
+    },
+    {
+        "label":  "Nuclear Medicine",
+        "value":  "Nuclear Medicine"
+    },
+    {
+        "label":  "Obstetrician",
+        "value":  "Obstetrician"
+    },
+    {
+        "label":  "Ophthalmologist",
+        "value":  "Ophthalmologist"
+    },
+    {
+        "label":  "Pathologist",
+        "value":  "Pathologist"
+    },
+    {
+        "label":  "Pediatrician",
+        "value":  "Pediatrician"
+    },
+    {
+        "label":  "Physical Medicine",
+        "value":  "Physical Medicine"
+    },
+    {
+        "label":  "Preventive Medicine",
+        "value":  "Preventive Medicine"
+    },
+    {
+        "label":  "Psychiatrist",
+        "value":  "Psychiatrist"
+    },
+    {
+        "label":  "Radiation Oncologist",
+        "value":  "Radiation Oncologist"
+    },
+    {
+        "label":  "Surgeon",
+        "value":  "Surgeon"
+    },
+    {
+        "label":  "Urologist",
+        "value":  "Urologist"
+    }
+]

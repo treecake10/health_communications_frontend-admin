@@ -1,0 +1,102 @@
+.create-btn {
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  float: center;
+  width: 100%;
+  height: 25px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 5px 1px lightgrey;
+  
+}
+
+.date-picker-icon {
+  float: right;
+  margin-right: 0px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.date-picker-icon2 {
+  float: right;
+  margin-right: 0px;
+  margin-top: -35px;
+  position: relative;
+  z-index: 2;
+}
+
+.modal-label {
+  font-weight: bold;
+}
+
+.cell-container {
+  display: flex;
+  gap: 25px;
+}
+
+.editBtn {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 1px solid rgba(0, 0, 139, 0.596);
+  cursor: pointer;
+}
+
+.deleteBtn {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: crimson;
+  border: 1px solid rgba(220, 20, 60, 0.6);
+  cursor: pointer;
+}
+
+.Accepted {
+  background-color: rgba(0, 128, 0, 0.05);
+  color: green;
+}
+
+.Pending {
+  background-color: rgba(255, 217, 0, 0.05);
+  color: goldenrod;
+}
+
+.Declined {
+  background-color: rgba(255, 0, 0, 0.05);
+  color: crimson;
+}
+
+.yes-Modal {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.no-Modal {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+}
