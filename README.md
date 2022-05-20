@@ -3,7 +3,7 @@
 
 Used by a doctor, physician, or receptionist of a pretend healthcare organization to approve, edit, or delete appointments scheduled by patients on the client complement application. 
 Doctors are able to schedule times off for any particular day for unavailability. 
-Patient information regarding which list of doctor families they are approved can be updated, along with who is their Primary Care Physician.
+Patient information regarding which list of doctor families they are approved can be updated, along with who is the patient's Primary Care Physician.
 This list of approved doctor families is used to determine the actual list of doctors the patient can request appointments with. 
 New patients and staff can also be created.   
 
