@@ -152,7 +152,7 @@ const Appointments = () => {
 
     setEditPopup(false);
 
-    axios.post(`https://health-communications.herokuapp.com/appointments/updateApptInfo/${appointmentID}`, {
+    axios.post(`https://health-communications-backend.onrender.com/appointments/updateApptInfo/${appointmentID}`, {
 
       time: currentTimeValue,
       date: dateStr,
@@ -178,7 +178,7 @@ const Appointments = () => {
     // Remove the selected appointment row from the data grid
     setDataGridRows(dataGridRows.filter((item) => item.rowID !== rowID));
 
-    axios.post(`https://health-communications.herokuapp.com/appointments/cancelAppt/${appointmentID}`);
+    axios.post(`https://health-communications-backend.onrender.com/appointments/cancelAppt/${appointmentID}`);
     
     window.location.reload();
  
@@ -191,7 +191,7 @@ const Appointments = () => {
   */
   const getAppointmentsFunction = async() => {
 
-    const resp = axios.get(`https://health-communications.herokuapp.com/appointments/getAppointment/${docId}`);
+    const resp = axios.get(`https://health-communications-backend.onrender.com/appointments/getAppointment/${docId}`);
 
     resp.then((response) => {
 

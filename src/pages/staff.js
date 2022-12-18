@@ -104,7 +104,7 @@ const Staff = () => {
         // If no form validation errors exists, register new staff
         if(!fullNameError && !emailError && !passwordError && !noFOSSelected) {
 
-            const response = await axios.post('https://health-communications.herokuapp.com/api/addStaff', {
+            const response = await axios.post('https://health-communications-backend.onrender.com/api/addStaff', {
             
                 data: userData,
                 fieldOfStudy: txtFieldStudy 

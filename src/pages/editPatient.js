@@ -112,7 +112,7 @@ const EditPatient = () => {
     // Get all existing patients
     const getPatientNames = () => {
         
-        axios.get('https://health-communications.herokuapp.com/users/getPatients')
+        axios.get('https://health-communications-backend.onrender.com/users/getPatients')
             .then((response) => {      
 
                 let data = response.data;           
@@ -135,7 +135,7 @@ const EditPatient = () => {
     // Get all existing doctors
     const getDoctorsList = () => {
 
-        axios.get('https://health-communications.herokuapp.com/doctors/getDoctors')
+        axios.get('https://health-communications-backend.onrender.com/doctors/getDoctors')
             .then((response) => {  
                               
                 let data = response.data;           
@@ -169,7 +169,7 @@ const EditPatient = () => {
         // If no validation errors exist, update information for the patient
         if(!emptyPatientError && !noPcpSelected) {
 
-            axios.post(`https://health-communications.herokuapp.com/users/updateUserInfo/${userId}`, { 
+            axios.post(`https://health-communications-backend.onrender.com/users/updateUserInfo/${userId}`, { 
 
                 pcpDoc: PCPDoc,
                 approvedDocFamilies: sendDocFamilyList

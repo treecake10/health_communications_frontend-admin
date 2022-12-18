@@ -103,7 +103,7 @@ const Schedule = () => {
         // If no form validation errors exist, post date and time off
         if(!emptyDateError && !noTimeSelected) {
 
-            axios.post(`https://health-communications.herokuapp.com/schedule/datesOff/${localStorage.getItem("userID")}`, { 
+            axios.post(`https://health-communications-backend.onrender.com/schedule/datesOff/${localStorage.getItem("userID")}`, { 
 
                 docID: localStorage.getItem("userID"),
                 date: moment(selectedDate).format("MM-DD-YYYY"),

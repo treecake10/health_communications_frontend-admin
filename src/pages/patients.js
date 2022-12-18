@@ -119,7 +119,7 @@ const Patients = () => {
     // Get all existing doctors
     const getDoctorsList = () => {
         
-        axios.get('https://health-communications.herokuapp.com/doctors/getDoctors')
+        axios.get('https://health-communications-backend.onrender.com/doctors/getDoctors')
             .then((response) => {      
 
                 let data = response.data;           
@@ -146,7 +146,7 @@ const Patients = () => {
         if(!firstNameError && !middleNameError && !lastNameError &&
             !emailError && !passwordError && !noPcpSelected) {
 
-            const response = await axios.post('https://health-communications.herokuapp.com/api/signup', { 
+            const response = await axios.post('https://health-communications-backend.onrender.com/api/signup', { 
 
                 data: userData, 
                 pcpDoc: PCPDoc
