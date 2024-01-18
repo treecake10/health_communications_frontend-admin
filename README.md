@@ -7,7 +7,14 @@ Patient information regarding which list of doctor families they are approved ca
 This list of approved doctor families is used to determine the actual list of doctors the patient can request appointments with. 
 New patients and staff can also be created.   
 
+## Hosting
 
+[admin-health-comm.netlify.app](https://admin-health-comm.netlify.app/)
+
+## Login Access
+Email: demodoc@gmail.com
+
+Password: password
 
 ## Frontend
 - React
@@ -20,14 +27,6 @@ New patients and staff can also be created.
 - Express
 - Axios
 - MongoDB
-## Login Access
-Email: demodoc@gmail.com
-
-Password: password
-## Demo
-
-https://harmonious-dodol-71e146.netlify.app/
-
 
 ## Screenshots
 
