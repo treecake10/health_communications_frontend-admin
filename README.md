@@ -72,6 +72,7 @@ Password: password
 ### Logout
 ![Logout](https://github.com/treecake10/health_communications_frontend-admin/blob/main/screenshots/Screenshot%20(172).png?raw=true)
 
+<br />
 
 ## Authors
 
