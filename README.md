@@ -18,6 +18,7 @@ Email: demodoc@gmail.com
 
 Password: password
 
+<br />
 
 ## Frontend
 - React
@@ -31,6 +32,7 @@ Password: password
 - Axios
 - MongoDB
 
+<br />
 
 ## Screenshots
 
